@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".OnboardingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="26dp"
+            android:src="@drawable/icon_ofsp"
+            android:scaleType="fitCenter"
+            android:importantForAccessibility="no" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ofsp_ce"
+            android:textStyle="bold"
+            android:textColor="#45415F"
+            android:textSize="28sp"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/ofsp_banner1"
+        android:layout_width="345dp"
+        android:layout_height="345dp"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:text="The Best way to ex plore an \noff-best location"
+        android:textAlignment="center"
+        android:textColor="#45415F"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ofsp_indicator" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFBD34"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:textColor="#423E5B"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="Already have an account?"
+                android:textColor="#45415F"
+                android:textSize="12sp"
+                android:layout_width="140dp"
+                android:layout_height="15dp"
+                />
+
+            <TextView
+                android:text="Sing In"
+                android:textColor="#FFC243"
+                android:textSize="12sp"
+                android:id="@+id/tvSignIn"
+                android:layout_width="40dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "270419673655",
+    "project_id": "ofspapp-30567",
+    "storage_bucket": "ofspapp-30567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270419673655:android:00d9fbe6cbe7363359b5b2",
+        "android_client_info": {
+          "package_name": "com.example.demoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1rBknDOKS9MN967jxkVmqRcNrczCdol8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

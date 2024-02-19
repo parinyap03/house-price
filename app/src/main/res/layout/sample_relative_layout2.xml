@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2128">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+         android:layout_centerHorizontal="true"
+        android:background="#FFBD34"/>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:background="#FFBD34"/>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true"
+        android:background="#FFBD34"/>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/view3"
+        android:layout_centerHorizontal="true"
+        android:background="#FFBD34"/>
+    <View
+        android:id="@+id/view5"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view4"
+        android:layout_centerHorizontal="true"
+        android:background="#FFBD34"/>
+    <View
+        android:id="@+id/view6"
+        android:layout_above="@id/relativeView1"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#FFC243"
+        android:layout_marginStart="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:id="@+id/relativeView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+        <View
+
+            android:id="@+id/view7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#ddd"/>
+        <View
+            android:id="@+id/view8"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="#FFC243"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/view7"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
